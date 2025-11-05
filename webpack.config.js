@@ -11,8 +11,15 @@ module.exports = {
     clean: true,
   },
   plugins: [
+    // Main page
     new HtmlWebpackPlugin({
       template: "./src/template.html",
+      filename: "index.html",
+    }),
+    // Add this to generate your work_experience.html page
+    new HtmlWebpackPlugin({
+      template: "./src/work_experience.html",
+      filename: "work_experience.html",
     }),
   ],
   module: {
@@ -26,5 +33,13 @@ module.exports = {
         loader: "html-loader",
       },
     ],
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "src"), // Serve all files in src (like CSS, images, etc.)
+    },
+    port: 8081,     // Keep your preferred port
+    hot: true,
+    open: true,     // Automatically open browser
   },
 };

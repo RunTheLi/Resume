@@ -20,6 +20,13 @@ header {
     height: 50px;
 }
 
+.header-2 {
+    background-color: #f48d79;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -32,6 +39,11 @@ a {
     color: white;
 }
 
+.li-font {
+    text-decoration: none;
+    color: #1f2937;
+}
+
 .logo
 {
     color: white;
@@ -40,7 +52,15 @@ a {
     padding-top: 10px;
 }
 
-.link
+.logo-2
+{
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 1000;
+    padding-top: 10px;
+}
+
+.link, .link-2
 {
     display: flex;
     font-size: 18px;
@@ -59,6 +79,33 @@ a {
         color: white;
         gap: 10px;
     }
+
+.content-wex-1 {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f48d79;
+        color: #1f2937;
+}
+
+.content-wex-2 {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fda898;
+        color: #1f2937;   
+}
+
+.content-wex-3 {
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffc0b4;
+        color: #1f2937;   
+}
 
 .content-2 {
         height: 300px;
@@ -95,6 +142,30 @@ a {
     font-size: 26px;
     font-weight: bolder;
     color: white;
+}
+
+.mheader-ex-1 {
+    width: 500px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mheader-ex-2 {
+    width: 500px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mheader-ex-3 {
+    width: 500px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .mheader {
@@ -188,6 +259,7 @@ button {
     height: 450px;
     display: flex;
     flex-direction: column;
+    background-color: whitesmoke;
 }
 
 .content-one-box {
@@ -235,7 +307,7 @@ button {
 .content-five {
     height: 400px;
     display: flex;
-    background-color: #6c768a;
+    background-color: #6b7588;
     justify-content: center;
     align-items: center;
 }
