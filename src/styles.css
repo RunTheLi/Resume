@@ -91,13 +91,7 @@ a {
     font-weight: bolder;
 }
 
-.m-head-4 {
-    font-size: 26px;
-    font-weight: bolder;
-    color: white;
-}
-
-.m-head-5 {
+.m-head-4, .m-head-5, .m-head-6 {
     font-size: 26px;
     font-weight: bolder;
     color: white;
@@ -136,10 +130,10 @@ a {
     color: white;
 }
 
-.mheader-5 {
+.mheader-5,.mheader-6 {
     text-align: left;    
     width: 600px;     
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -230,14 +224,6 @@ button {
 }
 /* color: rgb(112, 120, 131); */
 
-.content-two {
-    height: 450px;
-    display: flex;
-    background-color: #e5e7eb;
-    justify-content: center;
-    align-items: center;
-}
-
 .content-four {
     height: 400px;
     display: flex;
@@ -254,12 +240,12 @@ button {
     align-items: center;
 }
 
-.quote-box {
-    height: 300px;
-    width: 850px;
+.content-six {
+    height: 400px;
     display: flex;
-    flex-direction: column;
+    background-color: #334c7e;
     justify-content: center;
+    align-items: center;
 }
 
 .quote-box-2 {
@@ -268,13 +254,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.quote{
-    font-size: 36px;
-    padding: 10px;
-    font-weight: lighter;
-    font-style: italic;
 }
 
 .author {
@@ -292,10 +271,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.content-three{
-    height: 300px;
 }
 
 .ads{
