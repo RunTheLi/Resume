@@ -173,6 +173,62 @@ header a:hover {
         color: #1f2937;
 }
 
+/* === พื้นหลังทั้งหน้า === */
+body {
+  background-color: #c7f1be; /* สีพื้นหลังหลักที่คุณต้องการ */
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === กล่องเนื้อหาภาษาอังกฤษ === */
+.content-cer-4 {
+  background-color: #ffffff; /* สีเทาอ่อนของกล่อง */
+  color: #1f2937;
+  padding: 30px 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ส่วนหัว */
+.mheader-cer-4 {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.mheader-cer-4 .m-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #729c65;
+  display: inline-block;
+}
+
+.mheader-cer-4 h4 {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin: 4px 0 10px;
+}
+
+.mheader-cer-4 p {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.m-content-cer-4 {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.m-content-cer-4 li {
+  margin: 4px 0;
+  color: #374151;
+}
+
+
 .content-2 {
         height: 300px;
         display: flex;
@@ -306,16 +362,34 @@ header a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(109, 116, 125);
     color: white;
     border-radius: 50%;        /* this makes it circular */
     overflow: hidden;          /* hides any image corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
 }
 
 .picture img {
     width: 100%;
     height: 100%;
     object-fit: cover;         /* keeps image centered and fills circle */
+}
+
+.picture-1 {
+  width: 280px;                
+  height: 180px;               
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 12px;         
+  overflow: hidden;            
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.picture-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;           /* ensures the image fills the box nicely */
 }
 
 button {
@@ -369,13 +443,19 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 16px; 
-    border: 4px solid rgb(60, 131, 246);
+    border: 1px solid whitesmoke;
     text-align: center;
+}
+
+.box-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .box-content {
     text-align: center;
     color: rgb(112, 120, 131);
+    font-size: 15px;
 }
 /* color: rgb(112, 120, 131); */
 
