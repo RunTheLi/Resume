@@ -115,7 +115,7 @@ header a:hover {
     color: white;
     font-size: 24px;
     font-weight: 1000;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .logo-2
@@ -123,7 +123,8 @@ header a:hover {
     color: #1f2937;
     font-size: 24px;
     font-weight: 1000;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 .link, .link-2
@@ -324,7 +325,7 @@ header a:hover {
 }
 
 .mheader-cer-1 {
-    width: 500px;
+    width: 350px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -332,7 +333,7 @@ header a:hover {
 }
 
 .mheader-cer-2 {
-    width: 500px;
+    width: 350px;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -600,13 +601,13 @@ footer {
         padding-top: 10px;
     }
 
-    .content, .content-2, .content-3, .content-4, .content-five, .content-six,
-    .content-wex-1, .content-wex-2,.content-wex-3, .cer-4-back, .mheader-ex-1, .mheader-ex-2, .mheader-ex-3{
+    .content, .content-2, .content-3, .content-4, .content-five, .content-six,.content-wex-1, .content-wex-2,.content-wex-3{
         flex-direction: column;
         text-align: center;
         height: auto;
+        width: auto;
         padding: 20px 10px;
-        gap: 20px;
+        gap: 10px;
     }
 
     .picture, .picture-1 {
