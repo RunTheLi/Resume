@@ -639,6 +639,13 @@ footer {
         display: block;
     }
 
+    .content-one {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    }
+
     .content-3 {
         flex-direction: column;
     }
