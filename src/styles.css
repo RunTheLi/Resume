@@ -105,7 +105,7 @@ header a:hover {
   transition: all 0.2s ease;
 }
 
-.li-font {
+.link-2 a {
     text-decoration: none;
     color: #1f2937;
 }

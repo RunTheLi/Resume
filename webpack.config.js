@@ -8,20 +8,20 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
-    clean: true,
+    clean: true, // clean dist folder before each build
   },
   plugins: [
-    // Main page
+    // Main page (keep as template.html)
     new HtmlWebpackPlugin({
       template: "./src/template.html",
-      filename: "index.html",
+      filename: "index.html", // changed from index.html
     }),
     // Work Experience page
     new HtmlWebpackPlugin({
       template: "./src/work_experience.html",
       filename: "work_experience.html",
     }),
-    // ✅ Add Certificate page
+    // Certificate page
     new HtmlWebpackPlugin({
       template: "./src/certificate.html",
       filename: "certificate.html",
@@ -38,13 +38,5 @@ module.exports = {
         loader: "html-loader",
       },
     ],
-  },
-  devServer: {
-    static: {
-      directory: path.join(__dirname, "src"),
-    },
-    port: 8081,
-    hot: true,
-    open: true,
   },
 };
