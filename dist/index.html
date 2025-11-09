@@ -1,69 +1,161 @@
-<head><script defer src="main.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'html-loader' in '/home/lanma/Coding/javascript/Resume'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'html-loader' in '/home/lanma/Coding/javascript/Resume'
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/Compilation.js:2029:28
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/NormalModuleFactory.js:1031:13
-      at eval (eval at create (/home/lanma/Coding/javascript/Resume/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:10:1)
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/NormalModuleFactory.js:432:22
-      at eval (eval at create (/home/lanma/Coding/javascript/Resume/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:9:1)
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/NormalModuleFactory.js:746:15
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/NormalModuleFactory.js:179:10
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/NormalModuleFactory.js:826:8
-      at /home/lanma/Coding/javascript/Resume/node_modules/webpack/lib/NormalModuleFactory.js:1341:5
-      at /home/lanma/Coding/javascript/Resume/node_modules/neo-async/async.js:2830:7
-  
-  - Compilation.js:2029 
-    [Resume]/[webpack]/lib/Compilation.js:2029:28
-  
-  - NormalModuleFactory.js:1031 
-    [Resume]/[webpack]/lib/NormalModuleFactory.js:1031:13
-  
-  
-  - NormalModuleFactory.js:432 
-    [Resume]/[webpack]/lib/NormalModuleFactory.js:432:22
-  
-  
-  - NormalModuleFactory.js:746 
-    [Resume]/[webpack]/lib/NormalModuleFactory.js:746:15
-  
-  - NormalModuleFactory.js:179 
-    [Resume]/[webpack]/lib/NormalModuleFactory.js:179:10
-  
-  - NormalModuleFactory.js:826 
-    [Resume]/[webpack]/lib/NormalModuleFactory.js:826:8
-  
-  - NormalModuleFactory.js:1341 
-    [Resume]/[webpack]/lib/NormalModuleFactory.js:1341:5
-  
-  - async.js:2830 
-    [Resume]/[neo-async]/async.js:2830:7
-  
-  - child-compiler.js:211 
-    [Resume]/[html-webpack-plugin]/lib/child-compiler.js:211:18
-  
-  - Compiler.js:648 finalCallback
-    [Resume]/[webpack]/lib/Compiler.js:648:5
-  
-  - Compiler.js:684 
-    [Resume]/[webpack]/lib/Compiler.js:684:11
-  
-  - Compiler.js:1378 
-    [Resume]/[webpack]/lib/Compiler.js:1378:17
-  
-  
-  - Hook.js:21 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [Resume]/[tapable]/lib/Hook.js:21:14
-  
-  - Compiler.js:1374 
-    [Resume]/[webpack]/lib/Compiler.js:1374:33
-  
-  - Compilation.js:3133 finalCallback
-    [Resume]/[webpack]/lib/Compilation.js:3133:11
-  
-  - Compilation.js:3469 
-    [Resume]/[webpack]/lib/Compilation.js:3469:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="84bb4fc080631c2605f1.css">
+    <title>Landing page</title>
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <div class="logo">Resume</div>
+        <div class="link">
+            <ul>
+                <li><strong><a href="template.html">PROFILE</a></strong></li>
+                <li><strong><a href="work_experience.html">WORK EXPERIENCE</a></strong></li>
+                <li><strong><a href="certificate.html">CERTIFICATE</a></strong></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="content" id="profile">
+            <div class="mheader">
+                <h3 class="m-head">Methat Pongthornpratan</h3>
+                <p class="m-content">Recent graduate from Chiang Mai University, Faculty of Business Administration, majoring in Management.  
+                    I uphold strong ethical standards and respect for others. Dedicated to self-improvement and always eager to expand my knowledge.  
+                    Currently seeking career advancement and professional experience.</p>
+                <br>
+              </div>
+            <div class="picture">
+                <img src="35366b0cb00ab1981a60.jpg" alt="This is a place holder for an image">
+            </div>
+        </div>
+        
+        
+
+        <div class="content-3" id="education">
+            <div class="picture">
+                <img src="821dc5983e4cf8a1a67f.png" alt="This is a placeholder for an image">
+            </div>
+        <div class="mheader-3">
+            <h3 class="m-head">EDUCATION</h3>
+            <p>Bachelor of Business Administrative</p>
+            <p>Chiang Mai University business School</p><br>
+            <p class="m-content">
+           Major: Business Administrative Management<br>    
+            Minor: Logistics and Supply Chain Management 
+            </p>
+        </div>
+    </div>
+
+        <div class="content-one">
+          <div class="content-one-head">COMPUTER SKILLS</div>
+          <div class="content-one-box">
+          <div class="box">
+            <img class="box-image" src="f7ad53809690a1807fa6.png" alt="">
+            <div class="box-content">Microsoft Excel </div>
+        </div>
+        <div class="box">
+            <img class="box-image" src="6fbb7ab6db1f79575b9e.png" alt="">
+            <div class="box-content">Microsoft Power Point</div>
+        </div>
+        <div class="box">
+            <img class="box-image" src="dda7dbf27394665ca514.png" alt="">
+            <div class="box-content">Microsoft Word</div>
+        </div>
+        <div class="box">
+            <img class="box-image" src="5e0bcbe28be0345dd4d8.png" alt="">
+            <div class="box-content">Outlook</div>
+        </div>
+        </div>
+       </div>
+
+       <div class="content-four">
+        <div class="mheader-4">
+            <h3 class="m-head-4">Mainly focus on Excel Skills</h3>
+            <div class="font-1">
+            <p>Proficient in Microsoft Excel with strong analytical and data management capabilities. Skilled in organizing and transforming data using advanced formulas and lookup functions.</p>
+                <ul>
+                    <li><strong>Data Management:</strong>Sorting, Filtering, Data Cleaning (<code>PROPER()</code>, <code>TRIM()</code>, <code>INDEX()</code>)</li>
+                    <li><strong>Analytical Functions:</strong> <code>MIN()</code>, <code>MAX()</code>, <code>AVERAGE()</code>, <code>COUNTA()</code>, <code>AVERAGEIF()</code></li>
+                    <li><strong>Data Analysis Tools:</strong> Pivot Tables, <code>VLOOKUP()</code>, <code>XLOOKUP()</code></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+        <div class="content-one">
+          <div class="content-one-head">TECH SKILLS</div>
+          <div class="content-one-box">
+          <div class="box">
+            <img class="box-image" src="ffa3e0dd754dc923e50b.png" alt="">
+            <div class="box-content">Front End </div>
+        </div>
+        <div class="box">
+            <img class="box-image" src="faf47c30539965ca7316.png" alt="">
+            <div class="box-content">Back End</div>
+        </div>
+        <div class="box">
+            <img class="box-image" src="3267327599a9011812b1.png" alt="">
+            <div class="box-content">Databases</div>
+        </div>
+        </div>
+       </div>
+
+    <div class="content-five">
+        <div class="mheader-5">
+        <h3 class="m-head-5">Tech Skills</h3>
+    <div class="font-1">
+        <p>
+        Proficient in multiple programming languages and tools with strong analytical,
+        problem-solving, and software development capabilities. Experienced in both
+        front-end and back-end technologies, as well as data analysis and database management.
+        </p>
+        <ul>
+        <li><strong>Programming Languages:</strong> JavaScript, Python, C++, Ruby</li>
+        <li><strong>Frameworks & Libraries:</strong> React, Ruby on Rails</li>
+        <li><strong>Data Analysis & Computing:</strong> Data Analysis with Python, Scientific Computing with Python</li>
+        <li><strong>Web Development:</strong> HTML, CSS, JavaScript (Front-end)</li>
+        <li><strong>Databases:</strong> Relational Databases (SQL, PostgreSQL)</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+    <div class="content-six">
+  <div class="mheader-6">
+    <h3 class="m-head-6">Soft Skills</h3>
+    <div class="font-1">
+      <p>
+        Strong interpersonal and organizational abilities developed through teamwork,
+        project collaboration, and time-sensitive work environments. Skilled at effective
+        communication and conflict resolution to maintain a positive and productive workplace.
+      </p>
+      <ul>
+        <li><strong>Teamwork:</strong> Collaborates effectively within diverse teams to achieve shared goals.</li>
+        <li><strong>Time Management:</strong> Prioritizes tasks efficiently to meet deadlines and maintain quality.</li>
+        <li><strong>Conflict Resolution:</strong> Handles challenges diplomatically to ensure smooth collaboration.</li>
+        <li><strong>Communication in English:</strong> Demonstrates clear and professional communication in both written and spoken English.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+         <div class="content-2" id="education">
+        <div class="mheader-2">
+            <h3 class="m-head-2">PERSONAL CONTACT</h3>
+            <p>+(66)93-937-6433</p><br>
+            <p>methatpong63@gmail.com</p><br>
+            <p>581/1, village number 6, Mae Sai Subdistrict, Mae Sai District, Chiang Rai Province</p><br>
+            <p><a href="https://www.linkedin.com/in/methat-pongthornpratan-ab9a8620b" target="_blank">
+                www.linkedin.com/in/methat-pongthornpratan-ab9a8620b
+            </a></p>
+            </div>
+        </div>
+    </main>
+      
+    
+</body>
+</html>
