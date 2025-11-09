@@ -16,11 +16,12 @@ module.exports = {
       template: "./src/template.html",
       filename: "index.html",
     }),
-    // Add this to generate your work_experience.html page
+    // Work Experience page
     new HtmlWebpackPlugin({
       template: "./src/work_experience.html",
       filename: "work_experience.html",
     }),
+    // ✅ Add Certificate page
     new HtmlWebpackPlugin({
       template: "./src/certificate.html",
       filename: "certificate.html",
@@ -40,10 +41,10 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "src"), // Serve all files in src (like CSS, images, etc.)
+      directory: path.join(__dirname, "src"),
     },
-    port: 8081,     // Keep your preferred port
+    port: 8081,
     hot: true,
-    open: true,     // Automatically open browser
+    open: true,
   },
 };
