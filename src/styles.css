@@ -166,7 +166,7 @@ header a:hover {
 }
 
 .content-wex-3 {
-        height: 700px;
+        height: 710px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -202,8 +202,12 @@ header a:hover {
 }
 
 /* === พื้นหลังทั้งหน้า === */
-body {
-  background-color: #def7d8; /* สีพื้นหลังหลักที่คุณต้องการ */
+.cer-4-back {
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#e2f7de;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -258,7 +262,7 @@ body {
 
 
 .content-2 {
-        height: 300px;
+        height: 350px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -506,7 +510,7 @@ button {
 }
 
 .content-five {
-    height: 400px;
+    height: 430px;
     display: flex;
     background-color: #6b7588;
     justify-content: center;
@@ -514,7 +518,7 @@ button {
 }
 
 .content-six {
-    height: 400px;
+    height: 430px;
     display: flex;
     background-color: #334c7e;
     justify-content: center;
