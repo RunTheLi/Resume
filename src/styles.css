@@ -627,6 +627,16 @@ footer {
 
     .box {
         width: 80%;
+        max-width: 350px;
+    }
+
+    /* Make sure images inside boxes scale nicely */
+    .box-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        display: block;
     }
 
     .content-3 {
