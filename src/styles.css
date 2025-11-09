@@ -600,7 +600,7 @@ footer {
         padding-top: 10px;
     }
 
-    .content, .content-2, .content-3, .content-4, .content-five, .content-six {
+    .content, .content-2, .content-3, .content-4, .content-five, .content-six, .content-wex-3 {
         flex-direction: column;
         text-align: center;
         height: auto;
@@ -655,4 +655,5 @@ footer {
     .content-3 {
         flex-direction: column;
     }
+
 }
