@@ -627,23 +627,29 @@ footer {
 
     .box {
         width: 80%;
-        max-width: 350px;
+        max-width: 300px; 
+        text-align: center;
     }
+
 
     /* Make sure images inside boxes scale nicely */
     .box-image {
-        width: 100%;
+        width: 70%; 
+        max-width: 200px;
         height: auto;
-        object-fit: cover;
         border-radius: 10px;
+        object-fit: cover;
         display: block;
+        margin: 0 auto; 
     }
 
     .content-one {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        align-items: center; /* centers everything */
+        padding: 20px 0;
     }
 
     .content-3 {
