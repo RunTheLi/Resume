@@ -466,6 +466,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -585,3 +586,50 @@ footer {
     color: #e5e7eb;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header, .header-2, .header-3 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .content, .content-2, .content-3, .content-4, .content-five, .content-six {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .picture, .picture-1 {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .mheader, .mheader-2, .mheader-3, .mheader-4, .mheader-5, .mheader-6 {
+        width: 90%;
+        height: auto;
+        text-align: center;
+    }
+
+    .content-one-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    .content-3 {
+        flex-direction: column;
+    }
+}
