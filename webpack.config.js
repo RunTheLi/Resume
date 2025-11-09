@@ -21,6 +21,10 @@ module.exports = {
       template: "./src/work_experience.html",
       filename: "work_experience.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/certificate.html",
+      filename: "certificate.html",
+    }),
   ],
   module: {
     rules: [
