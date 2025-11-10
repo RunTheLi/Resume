@@ -116,6 +116,7 @@ header a:hover {
     font-size: 24px;
     font-weight: 1000;
     padding-top: 20px;
+    padding-left: 10px;
 }
 
 .logo-2
@@ -601,7 +602,9 @@ footer {
         padding-top: 10px;
     }
 
-    .content, .content-2, .content-3, .content-4, .content-five, .content-six,.content-wex-1, .content-wex-2,.content-wex-3{
+    .content, .content-2, .content-3, .content-4, .content-five, .content-six,
+    .content-wex-1, .content-wex-2,  .content-wex-3, .mheader-ex-1, .mheader-ex-2, .mheader-ex-3,
+    .mheader-cer-1, .mheader-cer-2, .mheader-cer-3 {
         flex-direction: column;
         text-align: center;
         height: auto;
