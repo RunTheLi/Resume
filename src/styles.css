@@ -177,7 +177,7 @@ header a:hover {
 }
 
 .content-cer-1 {
-        height: 360px;
+        height: 380px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -614,8 +614,8 @@ footer {
     }
 
     .picture, .picture-1 {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         margin: 0 auto;
     }
 
